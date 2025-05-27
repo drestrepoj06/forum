@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mock Forum</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f6f6f6;
+    }
+
+    .forum {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .thread {
+      border-bottom: 1px solid #ddd;
+      padding: 15px 0;
+    }
+
+    .thread:last-child {
+      border-bottom: none;
+    }
+
+    .author {
+      font-weight: bold;
+      color: #2a5d9f;
+    }
+
+    .date {
+      color: #888;
+      font-size: 0.9em;
+      margin-left: 10px;
+    }
+
+    .content {
+      margin-top: 5px;
+    }
+
+    .reply {
+      margin-left: 20px;
+      margin-top: 10px;
+      padding-left: 10px;
+      border-left: 2px solid #ddd;
+    }
+
+    .title {
+      font-size: 1.4em;
+      margin-bottom: 10px;
+    }
+
+    .fake-input {
+      margin-top: 20px;
+      border-top: 1px solid #ccc;
+      padding-top: 15px;
+      color: #888;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+<div class="forum">
+  <div class="title">📌 Topic: How do you interpret the chlorophyll data for July 2025?</div>
+
+  <div class="thread">
+    <div><span class="author">AnaFarmer42</span> <span class="date">May 27, 2025</span></div>
+    <div class="content">The satellite map shows lower values than what I observed in the field. Could it be a shadow effect?</div>
+    
+    <div class="reply">
+      <div><span class="author">LeafItAdmin</span> <span class="date">May 27, 2025</span></div>
+      <div class="content">Yes, that’s likely. Some shadows or soil exposure can lower reflectance. Check the NDVI layer for confirmation.</div>
+    </div>
+
+    <div class="reply">
+      <div><span class="author">AgroDroneNL</span> <span class="date">May 28, 2025</span></div>
+      <div class="content">In our case, chlorophyll values dropped after irrigation — maybe it’s a timing issue in data sync?</div>
+    </div>
+  </div>
+
+  <div class="thread">
+    <div><span class="author">RuralInsights</span> <span class="date">May 29, 2025</span></div>
+    <div class="content">Has anyone compared this with handheld sensor readings? We did and the values were consistent in the eastern plots.</div>
+  </div>
+
+  <div class="fake-input">📝 Log in to reply...</div>
+</div>
+
+</body>
+</html>
